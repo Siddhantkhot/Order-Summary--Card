@@ -1,0 +1,118 @@
+:root{
+    /* Primary */
+    --Pale_blue: hsl(225, 100%, 94%);
+    --Bright_blue: hsl(245, 75%, 52%);
+    /* Neutral */
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+}
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family:'Red Hat Display', sans-serif;
+    font-size:16px;
+}
+body{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--Very_pale_blue);
+    padding: 0 1.1rem;
+   
+}
+main{
+    border-radius:12px;
+    background-color:white;
+    max-width:375px;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow:11px 10px 20px var(--Pale_blue) ;
+
+}
+
+.hero{
+    width:100%;
+    margin-bottom: 0.5rem;
+}
+.hero-text{
+    padding: 1rem 1.6rem;
+   
+}
+.music{
+    width:2.9rem;
+}
+h1{
+    font-size:1.2rem;
+    color: var(--Dark_blue);
+    margin-bottom: 1rem;
+    font-weight: 900;
+    text-align: center;
+}
+p{
+    margin-bottom: 1rem;
+    color: var(--Desaturated_blue);
+    font-weight:500;
+    font-size:18px;
+    line-height:32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+h2{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.plan-holder{
+    background-color: hsla(225, 100%, 94%, 0.4);
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius:0.6rem;
+}
+
+.rating-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+   
+}
+
+.rating-text p{
+    margin: 0;
+    text-align: left;
+    font-size:0.8rem;
+}
+
+button{
+    background-color: var(--Bright_blue);
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    border-radius:0.6rem;
+    color: var(--Very_pale_blue);
+    font-family:'Red Hat Display', sans-serif; ;
+    font-weight:700;
+    box-shadow:0  0 12px blue inset;
+    margin-bottom: 1.5rem;
+    box-shadow:0 15px 9px 0.3px var(--Pale_blue);
+}
+
+.cancel{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color:var(--Desaturated_blue);
+    font-weight: 700;
+}
+a{
+    font-weight: 700;
+}
