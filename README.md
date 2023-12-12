@@ -22,16 +22,16 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:https://www.frontendmentor.io/solutions/responsive-ordersummarycomponent-Llt1HMIftr
+- Live Site URL:https://siddhantkhot.github.io/Order-Summary-Card/
 
 
 
 ## Author
 
-- Website - [Siddhant Khot](https://www.your-site.com)
-- Frontend Mentor - [@Siddhantkhot](https://www.frontendmentor.io/profile/yourusername)
-- Github - [@Siddhantkhot](https://www.twitter.com/yourusername)
+
+- Frontend Mentor - [@Siddhantkhot](https://www.frontendmentor.io/siddhantkhot)
+- Github - [@Siddhantkhot](https://www.github.com/siddhantkhot)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
